@@ -1,0 +1,7 @@
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.csproj.AssemblyReference.cache
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.AssemblyInfoInputs.cache
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.AssemblyInfo.cs
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.csproj.CoreCompileInputs.cache
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lipet\Downloads\Nova pasta (2)\jdbebidas\JDBEBIDASAPI\JDBEBIDASAPI\obj\Debug\net6.0\JDBEBIDASAPI.MvcApplicationPartsAssemblyInfo.cache
