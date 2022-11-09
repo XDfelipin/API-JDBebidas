@@ -29,12 +29,12 @@ namespace JDBEBIDASAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<BebidasMap>(x => x.UseSqlite("Data source=books.db"));
-
+            services.AddDbContext<BebidaMap>(x => x.UseSqlite("Data source=bebidas.db"));
+            services.AddScoped<IBebidaRepositorio, BebidaRepositorio>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "BooksAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "BebidasAPI", Version = "v1" });
             });
         }
 
@@ -45,7 +45,7 @@ namespace JDBEBIDASAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BooksAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BebidasAPI v1"));
             }
 
             app.UseHttpsRedirection();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a/m0VZMi5QAqGtZDdbcD0G1AfKUBP6w6sDKExU2SRhE7dCRoQLSzA9cOBxWr7UHn0B3TIAz0UE/hacIEKReQBQ==",
+  "dgSpecHash": "gysQcf0vmpCDaMwBMsdtntmClfRSVrsDvxVQ5vbV7QSLZ44wljfWvdYnpt3jQTsJ5txCG5Dhmmb1F9FXEBIvWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lipet\\Downloads\\Nova pasta (2)\\jdbebidas\\JDBEBIDASAPI\\JDBEBIDASAPI\\JDBEBIDASAPI.csproj",
+  "projectFilePath": "C:\\Users\\lipet\\OneDrive\\Documentos\\GitHub\\API-JDBebidas\\JDBEBIDASAPI\\JDBEBIDASAPI\\JDBEBIDASAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lipet\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\lipet\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

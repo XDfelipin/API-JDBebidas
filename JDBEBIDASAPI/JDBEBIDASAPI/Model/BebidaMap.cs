@@ -2,13 +2,13 @@
 
 namespace JDBEBIDASAPI.Model
 {
-    public class BebidasMap : DbContext
+    public class BebidaMap : DbContext
     {
-        public BebidasMap(DbContextOptions<BebidasMap> options) : base(options)
+        public BebidaMap(DbContextOptions<BebidaMap> options) : base(options)
         {
             Database.EnsureCreated();
         }
-
         public DbSet<Bebida> Bebidas { get; set; }
+
     }
 }
