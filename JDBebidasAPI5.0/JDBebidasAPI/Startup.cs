@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace JDBebidasAPI
 {
     public class Startup
@@ -33,6 +34,8 @@ namespace JDBebidasAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "JDBebidasAPI", Version = "v1" });
             });
+            services.AddScoped<IBebidaRepositorio, BebidaRepositorio>();
+            services.AddDbContext<BebidaMap>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

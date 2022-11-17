@@ -32,7 +32,7 @@ namespace JDBEBIDASAPI.Controllers
         public async Task<ActionResult<Bebida>> PostBebidas([FromBody] Bebida bebida)
         {
             var newBebida = await _bebidaRepositorio.Create(bebida);
-            return CreatedAtAction(nameof(GetBebidas), new { Id = newBebida.Id }, newBebida);
+            return Ok(newBebida);
         }
 
         [HttpDelete("{Id}")]
